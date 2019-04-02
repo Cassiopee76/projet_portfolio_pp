@@ -1,0 +1,8 @@
+/* background home */
+#section1 {
+    background-color:#000;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
