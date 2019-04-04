@@ -3,7 +3,7 @@
 
 
 
-/* Primary Navigation */
+/* Primary Navigation - menu-*/
 
 #nav {
     position: fixed;
@@ -53,7 +53,7 @@ a.logo{
 }
 
 
-/* Second Navigation */
+/* Second Navigation -menu-work- */
 
 #nav2 .navigation-container{
     display: flex; 

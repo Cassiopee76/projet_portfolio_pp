@@ -17,3 +17,15 @@
         </li>
     </ul>
 </nav>
+
+<?php
+        require './connexion/connexion.php';
+        $db = Database::connect();
+        $query = $db->query('SELECT * FROM works');
+        while($item = $query->fetch()) {  ?>
+
+        <h1><?php echo $item['title_work'] ?></h1>
+
+        <?php     
+        }
+        ?>

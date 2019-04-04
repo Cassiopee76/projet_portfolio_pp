@@ -1,8 +1,8 @@
 /* background footer */
-#section6 {
+#section-footer {
     background: url('../img/background/gray-texture.png') repeat;
     width:100%;
-    height:350px;
+    height:20%;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -16,7 +16,7 @@
     transition: opacity 0.7s ease-in-out;
 }
 
-#section6:hover {
+#section-footer:hover {
     opacity:1;
 }
 
@@ -30,7 +30,7 @@
 }
 
 /* lien de mon email */
-#section6 a {
+#section-footer a {
     text-decoration: none;
     color:#808080;
     display:block;

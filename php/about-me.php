@@ -1,6 +1,5 @@
 <main>
 <h1>ABOUT ME</h1>
-<span class="#" >
+<span>
     <img src="https://dummyimage.com/600x400/000/fff&text=about+me"/>
-</span>
 </main>

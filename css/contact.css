@@ -3,5 +3,80 @@
     background: url('../img/background/pont-raymond-barre-lyon.jpg') no-repeat;
     background-size: cover;
     width:100%;
-    height:59vh;
+    height:65%;
+}
+
+/* background contact */
+#section-contact {
+    background: url('../img/background/gray-texture.png') repeat;
+    width:100%;
+    height:35%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color:#808080;
+    
+}
+
+
+/* ligne verticale  */
+.vertical-line {
+    display: block;
+    width:1px;
+    margin:20px auto;
+    height:30px;
+    border-left: 1px solid #808080; 
+}
+
+/* lien de mon email */
+#section-contact a {
+    text-decoration: none;
+    color:#808080;
+    display:block;
+}
+.style-email {
+    font-size: 1.5em;
+    letter-spacing: .06em;
+}
+
+
+/* liste social icones */
+ul#social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 3em;
+}
+
+li.social-icons {
+    margin-right: 22px;
+   
+}
+
+/* animation rond autour icones */
+a.round-animate {
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 50%;
+    transition: border .3s ease ;
+    padding: 0.6em 0 0 0;
+    width: 3em;
+    height:3em; 
+    
+}
+a.round-animate:hover {
+    border: 2px solid rgba(128,128,128,1);
+}
+
+/* taille icones */
+
+.icon-size {
+    font-size: 1.5em;
+    
 }

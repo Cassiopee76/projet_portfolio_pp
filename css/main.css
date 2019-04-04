@@ -1,4 +1,4 @@
-@import "./background.css";
+@import "./home.css";
 @import "./menu.css";
 @import "./brandon-grotesque.css";
 @import "./pages.css";
@@ -11,6 +11,6 @@
 body {
     font-size: 16px;
     box-sizing: border-box;
-    background-color: #000;
-    position:relative;
+    background-color: #656565;
+    
 }

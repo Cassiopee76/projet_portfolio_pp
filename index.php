@@ -7,7 +7,8 @@
     ?>
 <!-------- BODY -------->
 <body>
-    <section id="section1">
+
+    <section id="section-home">
 
     <!-- Menu-Burger -->
         <?php
@@ -21,27 +22,29 @@
             include "./php/menu.php";
         ?>
 
-    <!-- condition des menus -->
+    <!-- condition du menus -->
      <?php
         if (isset($_GET['page']) && $_GET['page']==0) { 
-            include './php/menu2.php';
+            include './php/home.php';
         }   
         else if (isset($_GET['page']) && $_GET['page']==1)  {
-            include './php/portfolio.php';
+            include './php/about-me.php';
         }
         else if (isset($_GET['page']) && $_GET['page']==3)  {
-            include './php/about-me.php';
+            include './php/menu-work.php';
         }
         else if (isset($_GET['page']) && $_GET['page']==4)  {
             include './php/contact.php';
         } 
         else {
-            include './php/menu2.php';
+            include './php/home.php';
         }
     ?>
     <!-------- Footer -------->
     <?php
+        if (isset($_GET['page']) && $_GET['page']!=4) { 
         include "./php/footer.php";
+        }
     ?>
     </section>
 

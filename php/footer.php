@@ -1,9 +1,6 @@
 <footer>
   
-    <div id="section6">
-        <h2> Entrons en contact </h2>
-        <span class="vertical-line"></span>
-        <a class="style-email" href="mailto:patricia.perroudon@gmail.com">patricia.perroudon@gmail.com</a>
+    <div id="section-footer">
         
         <ul id="social-icons">
             <li class="social-icons">
