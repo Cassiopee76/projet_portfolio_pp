@@ -12,6 +12,8 @@
     height: inherit;
     padding: 2rem;
     width:100%;
+    background:linear-gradient(to bottom, #f6e1e1, #b9387d);
+    z-index:1;
 }
 
 .nav-container {
@@ -52,52 +54,13 @@ a.logo{
     padding-top:0!important;
 }
 
-
-/* Second Navigation -menu-work- */
-
-#nav2 .navigation-container{
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    margin-top:10%;
-    
-}
-
-#nav2 .navigation-container .bloc {
-    width:calc(20% - 20px);
-    height:500px;
-    padding:2em;
-    background: url('../img/background/back.jpeg') no-repeat;
-    background-size: cover;
-    filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-    transition: filter 0.7s ease-in-out;
-    cursor: pointer;
-}
-
-#nav2 .navigation-container .bloc:hover {
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-}
-
-@media screen and (max-width: 1100px) {
-    #nav2 .navigation-container {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    #nav2 .navigation-container .bloc {
-        width: 100%;
-    }
-  }
-
-#projet-title {
+/* #projet-title {
     position:absolute;
     top:0;
     right:0;
     width:100%;
     height:50px;
-}
+} */
 
 
 /* burger menu */
@@ -134,9 +97,9 @@ a.logo{
     text-transform: uppercase;
 }
 .nav-toggle {
-        user-select: none;
+        /* user-select: none; */
         cursor: pointer;
-        height: 4px;
+        height: 30px;
         width: 33px;
         right: 2rem;
         position: fixed;

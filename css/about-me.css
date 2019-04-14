@@ -1,0 +1,23 @@
+hr{
+    margin: 100px auto;
+    width: 50%;
+    height: 2px;
+    background-color: #b9387d;
+    border: none; /*on supprime le style par défaut*/
+  }
+
+  hr.hr-black {
+    margin: 100px auto;
+    width: 20%;
+    height: 2px;
+    background-color: #303030;
+    border: none; /*on supprime le style par défaut*/
+  }
+
+  hr.hr-pink {
+    margin: 100px auto;
+    width: 20%;
+    height: 2px;
+    background-color: #b9387d;
+    border: none; /*on supprime le style par défaut*/
+  }

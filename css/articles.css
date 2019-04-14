@@ -1,11 +1,11 @@
 #articles-show {
     position:relative;
     width:90%;
-    margin: -18% auto 0 auto;
+    margin: -90% auto 0 auto;
     height:0vh;
     background: rgba(248,235,218);
     color: #5c554c;
-    z-index: 20;
+    z-index: 1;
     transition: height 0.8s ease-in-out;
 }
 

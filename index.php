@@ -32,6 +32,7 @@
         }
         else if (isset($_GET['page']) && $_GET['page']==3)  {
             include './php/menu-work.php';
+            
         }
         else if (isset($_GET['page']) && $_GET['page']==4)  {
             include './php/contact.php';
@@ -43,14 +44,12 @@
     <!-------- Footer -------->
     <?php
         if (isset($_GET['page']) && $_GET['page']!=4) { 
-        include "./php/footer.php";
+        include './php/footer.php';
         }
     ?>
     </section>
 
-    <article id="articles-show">
-        <div id="cross">X</div>
-    </article>
+    
 
 
 

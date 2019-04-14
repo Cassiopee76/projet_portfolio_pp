@@ -5,12 +5,14 @@
 @import "./footer.css";
 @import "./contact.css";
 @import "./articles.css";
+@import "./menu-work.css";
+@import "./about-me.css";
 
 
 /* global style */
 body {
     font-size: 16px;
     box-sizing: border-box;
-    background-color: #656565;
-    
+    /* background-color:  #cdcdcd; */
+    background: url('../img/background/gray-texture.png') repeat;
 }
