@@ -6,15 +6,14 @@
     background-position: center;
     width:100%;
     height:100vh;
-    
     }
 
-/* background footer contact */
+/* background footer du contact */
 #section-contact {
     background: url('../img/background/gray-texture.png') repeat;
     width:100%;
     height:30%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     display: flex;

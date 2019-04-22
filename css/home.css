@@ -1,1 +1,50 @@
 
+
+#background-video {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../video/Compofinale-animation-portfolio-patricia_2174.jpg) no-repeat;
+    background-size: cover;
+  }
+  
+
+#background-video { transition: 1s opacity; }
+.stopfade { opacity: .8; }
+
+#vidpause { 
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 8%;
+    padding: .4rem;
+    border: none; 
+    font-size: 1.3rem;
+    background: rgba(255,255,255,0.23);
+    color: #fff;
+    text-align: center;
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: opacity .3s;
+    /* z-index: 5; */
+  }
+  #vidpause:hover { 
+     background: rgba(0,0,0,0.5);
+  }
+
+  @media screen and (max-width: 800px) {
+    html { 
+        background: url(../video/Compofinale-animation-portfolio-patricia_2174.jpg) no-repeat center fixed;
+        background-size: cover;
+     }
+     
+    #background-video { display: none; }
+    #vidpause { display: none;}
+    }

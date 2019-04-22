@@ -10,19 +10,19 @@
 
     <section id="section-home">
 
-    <!-- Menu-Burger -->
+    <!-------- Menu-Burger -------->
         <?php
             include "./php/menu-burger.php";
 
         ?>
         
-    <!-- les Menus -->
+    <!-------- primary navigation -------->
     
         <?php
             include "./php/menu.php";
         ?>
 
-    <!-- condition du menus -->
+    <!-------- condition du menus -------->
      <?php
         if (isset($_GET['page']) && $_GET['page']==0) { 
             include './php/home.php';
@@ -41,7 +41,7 @@
             include './php/home.php';
         }
     ?>
-    <!-------- Footer -------->
+    <!-------- Footer --------> 
     <?php
         if (isset($_GET['page']) && $_GET['page']!=4) { 
         include './php/footer.php';

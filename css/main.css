@@ -10,9 +10,9 @@
 
 
 /* global style */
+
 body {
     font-size: 16px;
     box-sizing: border-box;
-    /* background-color:  #cdcdcd; */
     background: url('../img/background/gray-texture.png') repeat;
 }
