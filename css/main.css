@@ -14,5 +14,6 @@
 body {
     font-size: 16px;
     box-sizing: border-box;
-    background: url('../img/background/gray-texture.png') repeat;
+    background: url('../img/background/background-vinyl.jpg') no-repeat;
+    background-size: cover;
 }

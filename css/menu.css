@@ -8,8 +8,7 @@
 #nav {
     position: fixed;
     top:0;
-    width: inherit;
-    height: inherit;
+    height: auto;
     padding: 2rem;
     width:100%;
     
@@ -59,10 +58,10 @@ a.logo{
     position: fixed;
     top:0;
     width: 100%;
-    height: inherit;
+    height: auto;
     padding: 2rem;
-    width:100%;
     background:url('../img/background/gray-texture.png') repeat;
+    border-bottom: 1px solid #2c3e50;
     z-index:100;
 }
 .menu-scroll:not(.logo){

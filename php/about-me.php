@@ -1,9 +1,10 @@
-<main>
-    <div class="img-about"></div>
-    <div class="presentation">
-        <div class="about">
+<section class="a-propos">
+    
+    <section class="presentation">
+        <div class="aboutme">
             <h3>Titre</h3>
             <h5>Sous titre</h5>
+            <br/>
             <p>Inventore tempus adipisicing montes, tellus aperiam, 
                 recusandae ornare exercitation. Illo cillum sapiente iure nesciunt, 
                 cursus? Et primis, lectus scelerisque ab nemo voluptatem fugiat aenean senectus 
@@ -11,36 +12,61 @@
                 Quidem aspernatur labore dis molestias? 
                 Excepturi maxime! Vivamus porta natus urna sapien litora! Aperiam doloribus.
                 Inventore tempus adipisicing montes, tellus aperiam, 
-                recusandae ornare exercitation. Illo cillum sapiente iure nesciunt, 
-                cursus? Et primis, lectus scelerisque ab nemo voluptatem fugiat aenean senectus 
-                fugit hendrerit ex fugiat consequat? Corrupti minus adipisicing optio repellat? 
-                Quidem aspernatur labore dis molestias? 
-                Excepturi maxime! Vivamus porta natus urna sapien litora! Aperiam doloribus.
+                
 
             </p>
         </div>
-        <div class="img-moi">
-            
-        </div>
-</div>
+        <div class="photo-cv"></div>
+    </section>
+    <br/>
     <hr/>
-    <div class="anim-css">animation CSS</div>
-    <div class="webdesign">
-        <h3>Web Designer</h3>
-        <hr class="hr-black"/>
-        <p>du texte sur webdesigner</p>
-        <hr class="hr-pink"/>
-        <h5>Skills</h5>
-        <p></p>
-    </div>
-    <div class="integrateur">
-        <h3>Intégrateur Front</h3>
-        <hr class="hr-black"/>
-        <p>du texte sur intégrateur front</p>
-        <hr class="hr-pink"/>
-        <h5>Skills </h5>
-        <p></p>
-    </div>
-    
+    <br/>
+    <section class="metier">
+        <div class="image"></div>
+        <div class="webdesign">
+            <h3>Web Designer</h3>
+            <br/>
+            <hr class="hr-black"/>
+            <br/>
+            <p>Veritatis pretium doloribus sit inventore hac nonummy! 
+                Assumenda tempore condimentum, ut feugiat tempora blanditiis sed 
+                diamlorem. Condimentum ornare cupidatat! Diamlorem occaecati, ipsa, 
+                accusantium habitant? Hac diam nam? Tempore aliqua ultricies eget 
+                habitasse nostrud torquent litora, possimus? Sed dapibus pellentesque 
+                neque animi lacinia temporibus dicta voluptates, temporibus facere fames. 
+                Commodo molestias.
+            </p>
+            <hr class="hr-pink"/>
+        
+            <div>
+                <h6>Skills</h6>
+                <p></p>
+                
+            </div>
+        </div>
+        
+        <div class="integrateur">
+            <h3>Intégrateur Front-End</h3>
+            <br/>
+            <hr class="hr-black"/>
+            <br/>
+            <p>
+                Veritatis pretium doloribus sit inventore hac nonummy! 
+                Assumenda tempore condimentum, ut feugiat tempora blanditiis sed 
+                diamlorem. Condimentum ornare cupidatat! Diamlorem occaecati, ipsa, 
+                accusantium habitant? Hac diam nam? Tempore aliqua ultricies eget 
+                habitasse nostrud torquent litora, possimus? Sed dapibus pellentesque 
+                neque animi lacinia temporibus dicta voluptates, temporibus facere fames. 
+                Commodo molestias.
 
-</main>
+            </p>
+            <hr class="hr-pink"/>
+            <div>
+                <h6>Skills</h6>
+                <p></p>
+            </div>
+        </div>
+        
+    </section>
+
+</section>
