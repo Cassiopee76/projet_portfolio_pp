@@ -29,7 +29,7 @@
 
 .menu:not(.logo){
     padding-bottom: 1rem;
-    font-family: 'Brandon Grotesque Black';
+    font-family: 'ralewaybold', sans-serif;
     font-size: 75%;
     letter-spacing: .480rem;
     text-decoration: none;
@@ -66,7 +66,7 @@ a.logo{
 }
 .menu-scroll:not(.logo){
     padding-bottom: 1rem;
-    font-family: 'Brandon Grotesque Black';
+    font-family: 'ralewaybold', sans-serif;
     font-size: 75%;
     letter-spacing: .480rem;
     text-decoration: none;
@@ -115,6 +115,7 @@ a.logo{
 .nav ul li a { 
     color: #fff;
     text-transform: uppercase;
+    font-family: 'raleway_semiboldregular', sans-serif;
 }
 .nav-toggle {
         /* user-select: none; */

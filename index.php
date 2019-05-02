@@ -31,16 +31,27 @@
             include './php/about-me.php';
         }
         else if (isset($_GET['page']) && $_GET['page']==3)  {
-            include './php/menu-work.php';
-            
+            include './php/menu-work.php';  
         }
         else if (isset($_GET['page']) && $_GET['page']==4)  {
             include './php/contact.php';
         } 
+        else if (isset($_GET['page']) && $_GET['page']==5) {
+            if (isset($_GET['id']) && $_GET['id']<=9) {
+                include './php/articles.php';
+            }
+            else {
+                include './php/menu-work.php';
+            }
+        }
+        
         else {
             include './php/home.php';
         }
+
     ?>
+
+    
     <!-------- Footer --------> 
     <?php
         if (isset($_GET['page']) && $_GET['page']!=4) { 

@@ -1,3 +1,4 @@
+
 <section class="defilement-work">
     <nav id="nav2">
         <ul class="navigation-container">
@@ -11,9 +12,10 @@
 
             <li class="bloc">
                 <figure>
+                <a href='index.php?page=5&amp;id=<?php echo $item['id']?>'>
                     <img class="img-work" src="./img/image-work/<?php echo $item['pics_presentation'] ?> " 
-                        alt="Images de mes differents travaux" 
-                        onclick="window.location.href='php/articles.php?id=<?php echo $item['id']?>'"/>
+                    alt="Images de mes differents travaux"/>
+                    </a>
 
                 </figure>
                 <h5 class="title"><?php echo $item['title_work'] ?></h5>
