@@ -71,28 +71,11 @@ for (let x=0; x < baliseB.length ; x ++) {
   
   }());
 
-//////// gestion bloc article ////////
 
-let blocDiv = document.querySelectorAll(".bloc");
-console.log('blocDiv', blocDiv);
-
-blocDiv.forEach(function(element) {
-  element.addEventListener("click", function(e) {
-    const blocHide = document.getElementById('articles-show');
-    const crossShow = document.getElementById('cross');
-    console.log('crossShow', crossShow);
-    crossShow.classList.toggle('showCross');
-    console.log('blocHide', blocHide);
-    blocHide.classList.toggle('showArticle');
-  });
-});
-
-
-//////// pour bouton pause pour la video de la page home ////////
+  //////// pour bouton pause pour la video de la page home ////////
 
 const vid = document.getElementById("background-video");
 const pauseButton = document.getElementById("vidpause");
-console.log('buton',pauseButton);
 
 if (window.matchMedia('(prefers-reduced-motion)').matches) {
   vid.removeAttribute("autoplay");

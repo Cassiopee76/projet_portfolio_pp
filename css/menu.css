@@ -3,7 +3,7 @@
 
 
 
-/* Primary Navigation - menu-*/
+/****** Primary Navigation - menu ******/
 
 #nav {
     position: fixed;
@@ -11,7 +11,7 @@
     height: auto;
     padding: 2rem;
     width:100%;
-    
+       
 }
 
 .nav-container {
@@ -52,7 +52,7 @@ a.logo{
     padding-top:0!important;
 }
 
-/* Primary Navigation - menu-scroll qui apparait au scroll-*/
+/****** Primary Navigation - menu-scroll qui apparait au scroll ******/
 
 #nav-scroll {
     position: fixed;
@@ -61,7 +61,7 @@ a.logo{
     height: auto;
     padding: 2rem;
     background:url('../img/background/gray-texture.png') repeat;
-    border-bottom: 1px solid #2c3e50;
+    border-bottom: 1px solid #5D5A58;
     z-index:100;
 }
 .menu-scroll:not(.logo){
@@ -70,20 +70,20 @@ a.logo{
     font-size: 75%;
     letter-spacing: .480rem;
     text-decoration: none;
-    color: #2c3e50 ;
+    color: #5D5A58 ;
     text-transform: uppercase;
 }
 .soulignement-scroll {
     width: 0;
     height: 2px;
-    background-color:#2c3e50;
+    background-color:#5D5A58;
     transition: all 1s;
     margin-left: auto;
     margin-right: auto;
     margin-top:0.2rem;
 }
 
-/* burger menu */
+/****** burger menu ******/
 
 .nav {
       transition: right 0.5s ease;

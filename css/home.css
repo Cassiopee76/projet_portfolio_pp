@@ -10,7 +10,7 @@
     height: auto; 
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url(../video/Compofinale-animation-portfolio-patricia_2174.jpg) no-repeat;
+    background: url(../video/Compofinale-animation-portfolio-patricia174.jpg) no-repeat;
     background-size: cover;
   }
   
@@ -41,7 +41,7 @@
 
   @media screen and (max-width: 800px) {
     html { 
-        background: url(../video/Compofinale-animation-portfolio-patricia_2174.jpg) no-repeat center fixed;
+        background: url(../video/Compofinale-animation-portfolio-patricia174.jpg) no-repeat center fixed;
         background-size: cover;
      }
      

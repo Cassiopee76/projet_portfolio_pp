@@ -8,6 +8,7 @@
 @import "./about-me.css";
 @import "./font-css/lato.css";
 @import "./font-css/raleway.css";
+@import "./404-page.css";
 
 
 /* global style */
@@ -17,7 +18,9 @@ body {
     box-sizing: border-box;
     background: url('../img/background/background-vinyl.jpg') no-repeat;
     background-size: cover;
+
 }
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'raleway_semiboldregular', sans-serif;
   }
