@@ -10,27 +10,13 @@
                 </span>
             </a>
         </li>
-            <li class="social-icons"><a class="round-animate" href="#" target="_blank" rel="noopener" title="Youtube">
+            <li class="social-icons"><a class="round-animate" href="https://www.youtube.com/channel/UCRuIEc3NA8OkOBjyc89osQA" target="_blank" rel="noopener" title="Youtube">
                 <span>
                     <i class="fab fa-youtube icon-size"></i>
                 </span>
             </a>
         </li>
-            <li class="social-icons">
-                <a class="round-animate" href="#" target="_blank" rel="noopener" title="Instagram">
-                    <span>
-                        <i class="fab fa-instagram icon-size"></i>
-                    </span>
-                </a>
-            </li>
-            <li class="social-icons">
-                <a class="round-animate" href="#" target="_blank" rel="noopener" title="Pinterest">
-                    <span>
-                        <i class="fab fa-pinterest-p icon-size"></i>
-                    </span>
-                </a>
-            </li>
-            <li class="social-icons">
+        <li class="social-icons">
                 <a class="round-animate" href="#" target="_blank" rel="noopener" title="Github">
                     <span>
                         <i class="fab fa-github icon-size"></i>
@@ -38,6 +24,11 @@
                 </a>
             </li>
         </ul>
-
+        <div class="foot-footer">
+            <p>© 2019 | THE PORTFOLIO OF PATRICIA WEBDESIGN | </p>
+        </div>
+        
     </div>
+    
+    
 </footer>

@@ -8,7 +8,7 @@
 #nav2 {
     
         padding: 6% 2%;
-        margin: 7% auto;
+        margin: 13% auto;
         color: #5D5A58;
         max-width: 1200px;
         text-align: center;
@@ -28,13 +28,13 @@ li.bloc {
   }
   li.bloc:hover{box-shadow:0 5px 10px rgba(0,0,0,.15);}
 
-  .img-work {width: 100%; height: 450px; }
+  .img-work {max-width: 100%; height: auto; }
   .img-work:hover{cursor: pointer;}
 
   #nav2 .navigation-container .bloc {
-    filter: hue-rotate(181deg);
-    -webkit-filter: hue-rotate(181deg);
-    transition: 0.5s ease-in-out;
+    filter: hue-rotate(180deg);
+    -webkit-filter: hue-rotate(180deg);
+    transition: 0.4s ease-in-out;
     cursor: pointer;
 }
 
@@ -43,22 +43,80 @@ li.bloc {
     -webkit-filter: hue-rotate(0deg);
 }
 
-  /*Responsive*/
-  @media (max-width: 1148px){
-    li.bloc{width: 30%;}
-  }
-  @media (max-width: 768px){
-    li.bloc{display: inline-block; width: auto;}
-    li.bloc .img-work{box-shadow: 0 2px 4px rgba(0,0,0, .4);}
-    figure{float: left; width: 70%;}
-    .title{
-      float: right; 
-      width: 30%;
-      height: 144px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
+ /********  Media queries  *********/
 
+
+/* ----- 400px --------*/
+@media screen and ( max-width: 25em ) {
+  #nav2 {
+    margin: 4% auto;
+  }
+  li.bloc {
+    width: 100%;
+  }
+}
+/* ----- 400px à 512px --------*/
+@media screen and ( min-width: 25em ) and ( max-width: 32em ) {
+  #nav2 {
+    margin: 4% auto;
+  }
+  li.bloc {
+    width: 70%;
+  }
+}
+/* ----- 512px à 656px --------*/
+@media screen and ( min-width: 32em ) and ( max-width: 41em ){
+  #nav2 {
+    margin: 4% auto;
+}
+  li.bloc {
+    width: 60%;
+  }
+}
+
+/* ----- 656px à 816px --------*/
+@media screen and (min-width: 41em) and ( max-width: 51em ) {
+  #nav2 {
+    margin: 20% auto;
+  }
+  li.bloc{
+    width: 47%;
+  }
+}
+
+/* ----- 816px à 992px --------*/
+@media screen and (min-width: 51em) and ( max-width: 62em ) {
+  #nav2 {
+    margin: 23% auto;
+    
+  }
+  li.bloc{
+    width: 38%;
+  }
+  h5.title {
+    font-size: 14px;
+    font-family: 'ralewaybold', sans-serif;
+  }
+}
+
+/* ----- 992px à 1200px --------*/
+@media screen and (min-width: 62em) and (max-width: 75em) {
+  #nav2 {
+    margin: 20% auto;
+    width:90%;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  li.bloc{
+    width: 35%;
+  }
+}
+
+/* ----- à partir de 1200px --------*/
+@media screen and (min-width: 75em) and (max-width:93.75em) {
+  #nav2 {
+    margin: 17% auto;
+  }
+  
+}
 

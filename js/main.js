@@ -59,15 +59,14 @@ for (let x=0; x < baliseB.length ; x ++) {
       navToggle: document.querySelector('.nav-toggle'),
       nav: document.querySelector('nav'),
   
-      doToggle: function(e) {
-        e.preventDefault();
+      doToggle: function() {
         this.navToggle.classList.toggle('expanded');
         this.nav.classList.toggle('expanded');
       }
     };
   
-    hamburger.navToggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
-    hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
+    hamburger.navToggle.addEventListener('click', function(e) { hamburger.doToggle(); });
+    hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(); });
   
   }());
 

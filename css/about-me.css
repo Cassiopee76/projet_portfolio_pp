@@ -1,14 +1,14 @@
-
 /****** section de la page  ******/
 
   .a-propos {
     padding: 1% 0;
-    margin: 7% auto;
+    margin: 14% auto;
     color: #5D5A58;
-    max-width: 1200px;
+    width:63%;
     text-align: center;
     background:url(../img/background/gray-texture.png) repeat;
     box-shadow: 0 2px 4px rgba(0,0,0,.2);
+    padding-bottom:3em;
     
   }
   
@@ -20,7 +20,6 @@
     justify-content: center;
     flex-direction: row;
     margin: 1% auto;
-    width: inherit;
     
   }
   /****** les div textes ******/
@@ -38,7 +37,7 @@
   }
 
   .aboutme {
-    width: 40%;
+    width: 45%;
   }
 
   .webdesign, .integrateur {
@@ -48,10 +47,10 @@
   /****** les div photos ******/
 
   .photo-cv {
-    width: 25%;
-    height: inherit;
-    margin: 0 auto;
-    background:url(../img/img-cv/photo-patricia-cv-v1.png) no-repeat center ;
+    width: 30%;
+    height: 350px;
+    margin: 5% 8%;
+    background:url(../img/img-cv/photo-patricia-cv.png) no-repeat center ;
     background-size: cover;
     border:1px solid #5D5A58;
     box-shadow: 4px 4px 6px rgba(0,0,0,.5);
@@ -60,10 +59,9 @@
 
   .image {
     width: 30%;
-    height: 300px;
-    margin: auto;
+    height: 340px;
+    margin: 5% auto;
     background:url(../img/img-cv/nuage-de-mots-rose.png) no-repeat center;
-    background-size: 225%;
     border: 1px solid #5D5A58;
     box-shadow: 4px 4px 6px rgba(0,0,0,.5);
   }
@@ -93,6 +91,298 @@ hr {
     background-color: #b9387d;
   }
   
-
-
+  /*  SKILLS  */
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.skills-container p {
+  padding-right:1em;
+}
+.skills-container p img {
+  width:40px;
+}
   
+
+/********  Media queries  *********/
+
+  /* ----- 400px --------*/
+  @media screen and (max-width: 25em) {
+    html {
+      background: none;
+    }
+    .presentation {
+      flex-direction: column-reverse;
+    }
+    .metier {
+      flex-direction: column;
+    }
+    .a-propos {
+      width:118%;
+    }
+    .aboutme {
+      width: 95%;
+    }
+    .aboutme h3, .webdesign h3 , .integrateur h3 {
+      padding-top: 1em;
+    }
+    .photo-cv {
+      width: 97%;
+      margin: 5% auto 1% auto;
+    }
+    .image {
+      width:95%;
+    }
+    .webdesign, .integrateur {
+      width: 95%;
+    }
+    .skills-container p img {
+      width:30px;
+    }
+    .a-propos {
+      width:100%;
+      margin: 5% auto 9% auto;
+    }
+    .show-logo-white {
+      display:block;
+      /* position:fixed; */
+      top:0.5em;
+      left:0.5em;
+      width:100px;
+    }
+    #nav, #nav-scroll {
+      display: none!important;
+    }
+    
+
+  }
+
+/* ----- de 400px à 512px--------*/
+@media screen and (min-width: 25em) and (max-width: 32em) {
+  html {
+    background: none;
+  }
+  .presentation {
+    flex-direction: column-reverse;
+  }
+  .metier {
+    flex-direction: column;
+  }
+  .aboutme {
+    width: 95%;
+  }
+  .aboutme h3, .webdesign h3 , .integrateur h3 {
+    padding-top: 1em;
+  }
+  .image {
+    width:80%;
+  }
+  .photo-cv {
+    width: 72%;
+    margin: 5% auto 1% auto;
+  }
+  .webdesign, .integrateur {
+    width: 95%;
+  }
+  .skills-container p img {
+    width:30px;
+  }
+  .a-propos {
+    width:100%;
+    margin: 3% auto 9% auto;
+  }
+  .show-logo-white {
+    display:block;
+    top:0.5em;
+    left:0.5em;
+    width:100px;
+  }
+  #nav, #nav-scroll {
+    display: none!important;
+  }
+}
+
+/* ----- 512px à 656px --------*/
+@media screen and ( min-width: 32em ) and ( max-width: 41em ){
+  html {
+    background: none;
+  }
+  .a-propos {
+    margin: 4% auto 4% auto;
+    width:100%;
+  }
+  .presentation {
+    flex-direction: column-reverse;
+  }
+  .metier {
+    flex-direction: column;
+  }
+  .aboutme {
+    width: 90%;
+  }
+  .aboutme h3, .webdesign h3 , .integrateur h3 {
+    padding-top: 0.5em;
+  }
+  .photo-cv {
+    width: 56%;
+    margin: 5% auto 1% auto;
+  } 
+  .image {
+  width: 75%;
+  }
+  .webdesign, .integrateur {
+    width: 95%;
+  }
+  .show-logo-white {
+    display:block;
+    top: -0.2em;
+    left: -0.5em;
+    width: 100px;
+  }
+  #nav, #nav-scroll {
+    display: none!important;
+  }
+}
+
+  /* ----- 656px à 816px --------*/
+  @media screen and (min-width: 41em) and ( max-width: 51em ) {
+  .a-propos {
+    margin: 14% auto;
+    width:80%;
+  }
+  .presentation {
+    flex-direction: column-reverse;
+  }
+  .aboutme {
+    width: 100%;
+    padding: 3%;
+  }
+  .photo-cv {
+      width: 57%;
+      margin: 5% auto 1% auto;
+  }
+  .metier {
+    flex-direction: column;
+  }
+  .webdesign, .integrateur {
+    width: 100%;
+    padding: 3%;
+  }
+  .image {
+    width: 75%;
+    margin: 5% auto 1% auto;
+  }
+  .webdesign h3 {
+    padding-top:2em;
+  }
+  .show-logo-white {
+    display:block;
+    top:0.5em;
+    left:0.5em;
+    width:100px;
+  }
+  #nav, #nav-scroll {
+    display: none!important;
+  }
+  .skills-container p img {
+    width:30px;
+  }
+}
+
+/* ----- 816px à 992px --------*/
+@media screen and ( min-width: 51em ) and ( max-width: 62em ) {
+
+  .a-propos {
+    margin: 27% auto;
+    width: 75%;
+  }
+  .presentation {
+    flex-direction: column-reverse;
+  }
+  .aboutme {
+    width: 80%;
+  }
+  .webdesign h3 , .integrateur h3 {
+    font-size: 1.3em;
+  }
+  .photo-cv {
+    width: 48%;
+    margin: 5% auto 1% auto;
+  }
+  .metier {
+    flex-direction: column;
+  }
+  .image {
+    width: 63%;
+    margin: 5% auto 1% auto;
+  }
+  .webdesign, .integrateur {
+    width: 95%;
+    padding: 3%;
+  }
+}
+
+/* ----- 992px à 1200px --------*/
+@media screen and (min-width: 62em) and ( max-width: 75em ) {
+  .a-propos {
+    margin: 22% auto;
+    width: 75%;
+  }
+  .presentation {
+    flex-direction: column-reverse;
+  }
+  .aboutme {
+    width: 80%;
+  }
+  .photo-cv {
+    width: 43%;
+    margin: 5% auto 1% auto;
+  }
+  .metier {
+    flex-direction: column;
+    width:80%;
+  }
+  .image {
+    width: 66%;
+  }
+  .webdesign h3 , .integrateur h3 {
+      font-size: 1.3em;
+  }
+  .webdesign, .integrateur {
+    width: 100%;
+    padding: 3%;
+  }
+}
+
+
+/* ----- de 1200px  à 1500px --------*/
+@media screen and ( min-width: 75em ) and ( max-width: 93.750em) {
+  .a-propos {
+    margin: 20% auto;
+    width: 70%;
+  }
+  .webdesign h3 , .integrateur h3 {
+    font-size: 1.4em;
+  }
+  .photo-cv {
+    width: 40%;
+  }
+  .image {
+    width: 35%;
+    height: 350px;
+    margin: 10% auto 1% auto;
+  }
+  .aboutme {
+    margin: 5% 0% 1% 2%;
+  }
+}
+
+
+/* ----- de 1500px --------*/
+@media screen and ( min-width: 93.750em ) {
+  .webdesign h3 , .integrateur h3 {
+    font-size: 1.5em;
+  }
+}

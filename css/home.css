@@ -1,22 +1,41 @@
 
+/* Background video fullscreen */
 
-#background-video {
-    position: fixed; 
-    top: 50%;
-    left: 50%;
-    min-width: 100%; 
-    min-height: 100%;
-    width: auto; 
-    height: auto; 
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background: url(../video/Compofinale-animation-portfolio-patricia174.jpg) no-repeat;
-    background-size: cover;
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg_video {
+    height: 300%;
+    top: -100%;
   }
-  
+}
 
-#background-video { transition: 1s opacity; }
-.stopfade { opacity: .8; }
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg_video {
+    width: 300%;
+    left: -100%;
+  }
+}
+.stopfade { 
+  opacity: .8; 
+}
 
 #vidpause { 
     display: block;
@@ -33,18 +52,158 @@
     border-radius: 3px; 
     cursor: pointer;
     transition: opacity .3s;
-    /* z-index: 5; */
+    z-index: 5;
   }
   #vidpause:hover { 
      background: rgba(0,0,0,0.5);
   }
+  .show-logo-white {
+    display:none;
+  }
 
-  @media screen and (max-width: 800px) {
-    html { 
-        background: url(../video/Compofinale-animation-portfolio-patricia174.jpg) no-repeat center fixed;
-        background-size: cover;
-     }
-     
-    #background-video { display: none; }
-    #vidpause { display: none;}
+  /********  Media queries  *********/
+
+  /* ----- 400px --------*/
+  @media screen and (max-width: 25em) {
+    .fullscreen-bg {
+      background: #50b4df url('../video/design-home-VMobile.png') no-repeat;
+      background-position: center 50%;
+      background-size: contain;
     }
+    .fullscreen-bg_video {
+      display: none;
+    }
+    #vidpause { 
+      display: none;
+    }
+    #nav, #nav-scroll {
+      display: none!important;
+    }
+    
+    .show-logo-white {
+      display:block;
+      padding-top:1em;
+      padding-left:1em;
+      width:100px;
+    }
+  }
+
+  /* ----- de 400px à 512px--------*/
+  @media screen and (min-width: 25em) and (max-width: 32em) {
+    #nav, #nav-scroll {
+      display: none!important;
+    }
+    .fullscreen-bg {
+      background: #50b4df url('../video/design-home-VMobile.png') no-repeat;
+      background-position: center 45%;;
+      background-size: contain;
+    }
+    .fullscreen-bg_video {
+      display: none;
+    }
+    #vidpause { 
+      display: none;
+    }
+    
+    .show-logo-white {
+      display:block;
+      padding-top:1em;
+      padding-left:1em;
+      width:100px;
+    }
+  }
+
+  /* ----- de 512px à 656px --------*/
+  @media screen and (min-width: 32em) and (max-width: 41em) {
+    #nav, #nav-scroll {
+      display: none!important;
+    }
+    .fullscreen-bg {
+      background: #50b4df url('../video/design-home-VMobile.png') no-repeat;
+      background-position: center 40%;;
+      background-size: 85%;
+    }
+    .fullscreen-bg_video {
+      display: none;
+    }
+    #vidpause { 
+      display: none;
+    }
+    .show-logo-white {
+      display:block;
+      padding-top:1em;
+      padding-left:1em;
+    }
+  }
+
+  /* ----- de 656px à 816px --------*/
+  @media screen and (min-width: 41em) and (max-width: 51em) { 
+    .nav-toggle {
+      display:none;
+    }
+    .fullscreen-bg {
+      background: #50b4df url('../video/design-home-VMobile.png') no-repeat;
+      background-position: center 40%;
+      background-size: 70%;
+    }
+    .fullscreen-bg_video {
+      display: none;
+    }
+    #vidpause { 
+      display: none;
+    }
+    #nav {
+      display:none;
+    }
+    .nav-toggle {
+      display:block;
+    }
+    .show-logo-white {
+      display:block;
+      padding-top:1em;
+      padding-left:1em;
+    }
+  }
+
+  /* ----- de 816px à 992px --------*/
+  @media screen and (min-width: 51em) and (max-width: 62em) {
+    .nav-toggle {
+      display:none;
+    }
+    .fullscreen-bg {
+      background: #50b4df url('../video/design-home-VMobile.png') no-repeat;
+      background-position: center 40%;
+      background-size: 60%;
+    }
+    .fullscreen-bg_video {
+      display: none;
+    }
+    #vidpause { 
+      display: none;
+    }
+  }
+
+  /* ----- de 992px à 1200px --------*/
+  @media screen and (min-width: 62em) and (max-width: 75em) {
+    .nav-toggle {
+      display:none;
+    }
+    .fullscreen-bg {
+      background: #50b4df url('../video/design-home-VMobile.png') no-repeat;
+      background-position: center 40%;
+      background-size: 50%;
+    }
+    .fullscreen-bg_video {
+      display: none;
+    }
+    #vidpause { 
+      display: none;
+    }
+  }
+
+  /* ----- a partir de 1200px -----*/ 
+  @media screen and (min-width: 75em) {
+    .nav-toggle {
+      display:none;
+    }
+  }

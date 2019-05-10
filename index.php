@@ -9,6 +9,7 @@
 <body>
 
     <section id="section-home">
+    <img src="./img/logo_PatriciaWebdesign-blanc144.png" class="show-logo-white" alt="logo du site" />
 
     <!-------- Menu-Burger -------->
         <?php

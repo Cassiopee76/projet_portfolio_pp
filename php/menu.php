@@ -8,7 +8,7 @@
             <a class="menu" href="index.php?page=1" >About Me</a><br/><div class="soulignement"></div>
         </li>
         <li >
-            <a class="logo" href="index.php?page=2" ><img src="favicon-rose.png"/></a>
+            <a class="logo" href="index.php?page=2" ><img src="./img/logo_PatriciaWebdesign-blanc144.png"/></a>
         </li>
         <li class="test" >
             <a class="menu" href="index.php?page=3" >Work</a><br/><div class="soulignement"></div>
@@ -27,7 +27,7 @@
             <a class="menu-scroll" href="index.php?page=1" >About Me</a><br/><div class="soulignement-scroll"></div>
         </li>
         <li >
-            <a class="logo" href="index.php?page=2" ><img src="favicon-rose.png"/></a>
+            <a class="logo" href="index.php?page=2" ><img src="./img/logo_PatriciaWebdesign-gris144.png"/></a>
         </li>
         <li class="test" >
             <a class="menu-scroll" href="index.php?page=3" >Work</a><br/><div class="soulignement-scroll"></div>

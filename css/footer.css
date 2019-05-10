@@ -2,7 +2,7 @@
 #section-footer {
     background: url('../img/background/gray-texture.png') repeat;
     width:100%;
-    height:13%;
+    height:7%;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -14,30 +14,20 @@
     color:#808080;
     opacity:0;
     transition: opacity 0.7s ease-in-out;
+    padding-top:2em;
+    padding-bottom:2em;
 }
 
 #section-footer:hover {
     opacity:1;
 }
 
-/* ligne verticale  */
-.vertical-line {
-    display: block;
-    width:1px;
-    margin:20px auto;
-    height:30px;
-    border-left: 1px solid #808080; 
-}
 
-/* lien de mon email */
+/* lien de mon footer */
 #section-footer a {
     text-decoration: none;
     color:#808080;
     display:block;
-}
-.style-email {
-    font-size: 1.5em;
-    letter-spacing: .06em;
 }
 
 
@@ -49,6 +39,7 @@ ul#social-icons {
     justify-content: center;
     list-style-type: none;
     padding-top: 3em;
+    padding-bottom:1em;
 }
 
 li.social-icons {
@@ -76,3 +67,83 @@ a.round-animate:hover {
     font-size: 1.5em;
     
 }
+
+/*  Media queries  */
+
+  /* ----- 400px --------*/
+  @media screen and (max-width: 25em) {
+    #section-footer {
+        opacity:1;
+        height: 4%;
+        padding:2em;
+    }
+    a.round-animate {
+        padding: 0.2em 0 0 0!important;
+        width: 2em !important;
+        height: 2em !important;
+    }
+    .icon-size {
+        font-size: 1em!important;
+    }
+    ul#social-icons {
+        padding-top: 2em!important;
+        padding-bottom: 1em;
+    }
+  }
+
+  /* ----- 400px à 512px--------*/
+  @media screen and (min-width: 25em) and ( max-width: 32em ) {
+    #section-footer {
+        opacity:1;
+        height: 7%;
+        padding:2em;
+    }
+    a.round-animate {
+        padding: 0.2em 0 0 0!important;
+        width: 2em !important;
+        height: 2em !important;
+    }
+    .icon-size {
+        font-size: 1em!important;
+    }
+  }
+
+  /* ----- de 512px à 656px --------*/
+  @media screen and (min-width: 32em) and (max-width: 41em) {
+    #section-footer {
+        opacity:1;
+        height: 7%;
+        padding:2em;
+    }
+    a.round-animate {
+        padding: 0.2em 0 0 0!important;
+        width: 2em !important;
+        height: 2em !important;
+    }
+    .icon-size {
+        font-size: 1em!important;
+    }
+    ul#social-icons {
+        padding-top: 3em!important;
+    }
+  }
+
+   /* ----- de 656px à 1200px --------*/
+  @media screen and (min-width: 41em) and (max-width: 75em) {
+    #section-footer {
+        opacity:1;
+        height: 7%;
+        padding:2em;
+    }
+    a.round-animate {
+        padding: 0.2em 0 0 0!important;
+        width: 2em !important;
+        height: 2em !important;
+    }
+    .icon-size {
+        font-size: 1em!important;
+    }
+    ul#social-icons {
+        padding-top: 3em!important;
+    }
+  }

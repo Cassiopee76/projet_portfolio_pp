@@ -80,5 +80,13 @@ a.round-animate:hover {
 
 .icon-size {
     font-size: 1.5em;
-    
+}
+
+/* media queries */
+/* ----- 400px à 512px -----*/
+@media screen and (min-width: 25em) and (max-width: 32em) {
+    ul#social-icons {
+        padding-top: 2em!important;
+        padding-bottom: 1em;
+    }
 }

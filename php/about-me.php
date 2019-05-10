@@ -16,13 +16,13 @@
 
             </p>
         </div>
-        <div class="photo-cv"></div>
+        <div class="photo-cv img-fluid"></div>
     </section>
     <br/>
     <hr/>
     <br/>
     <section class="metier">
-        <div class="image"></div>
+        <div class="image img-fluid"></div>
         <div class="webdesign">
             <h3>Web Designer</h3>
             <br/>
@@ -40,7 +40,14 @@
         
             <div>
                 <h6>Skills</h6>
-                <p></p>
+                <div class="skills-container">
+                    <p><img src="./img/skills/illustrator.png" /></p>
+                    <p><img src="./img/skills/indesign.png" /></p>
+                    <p><img src="./img/skills/photoshop.png" /></p>
+                    <p><img src="./img/skills/after-effect.png" /></p>
+                    <p><img src="./img/skills/ux-design.png" /></p>
+                    <p><img src="./img/skills/motion.png" /></p>
+                </div>
                 
             </div>
         </div>
@@ -63,7 +70,16 @@
             <hr class="hr-pink"/>
             <div>
                 <h6>Skills</h6>
-                <p></p>
+                <div class="skills-container">
+                    <p><img src="./img/skills/html5.png" /></p>
+                    <p><img src="./img/skills/css3.png" /></p>
+                    <p><img src="./img/skills/javascript.png" /></p>
+                    <p><img src="./img/skills/php.png" /></p>
+                    <p><img src="./img/skills/wordpress.png" /></p>
+                    <p><img src="./img/skills/mysql.png" /></p>
+                    <p><img src="./img/skills/bootstrap.svg" /></p>
+                </div>
+                
             </div>
         </div>
         
