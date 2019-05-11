@@ -30,7 +30,7 @@
 .vertical-line {
     display: block;
     width:1px;
-    margin:10px auto;
+    margin:5px auto;
     height:30px;
     border-left: 1px solid #808080; 
 }
@@ -53,14 +53,19 @@ ul#social-icons {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items:center;
     list-style-type: none;
-    padding-top: 2em;
+    align-items:center;
+    padding-top: 1em;
 }
 
 li.social-icons {
     margin-right: 22px;
-   
 }
+li.social-icons:first-child {
+    margin-left:22px;
+}
+
 
 /* animation rond autour icones */
 a.round-animate {

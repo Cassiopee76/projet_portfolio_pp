@@ -15,8 +15,11 @@ while($item = $query2->fetch()) { ?>
         <p><?php echo nl2br($item['content_work2'])?></p>
         <div id="masthead">
             <div class="pics-article-presentation">
-                <img class="img-fluid" src="./img/img-article/<?php echo $item['pics_article_presentation'] ?>" 
-                 alt="photo de présentation" /> 
+                <?php if ($item['lien_url'] !== null ) { ?>
+                <a href="<?php echo $item['lien_url'] ?>" target="_blank" ><?php } ?>
+                    <img class="img-fluid" src="./img/img-article/<?php echo $item['pics_article_presentation'] ?>" 
+                    alt="photo de présentation IMac" />
+                </a> 
             </div>
             <div class="bg-color-masthead" style="background-color:<?php echo $item['bg-color'] ?>"></div>
         </div>

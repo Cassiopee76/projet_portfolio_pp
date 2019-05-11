@@ -2,7 +2,7 @@
 #section-footer {
     background: url('../img/background/gray-texture.png') repeat;
     width:100%;
-    height:7%;
+    height:14%;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -14,8 +14,7 @@
     color:#808080;
     opacity:0;
     transition: opacity 0.7s ease-in-out;
-    padding-top:2em;
-    padding-bottom:2em;
+    
 }
 
 #section-footer:hover {
@@ -33,13 +32,8 @@
 
 /* liste social icones */
 ul#social-icons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style-type: none;
-    padding-top: 3em;
-    padding-bottom:1em;
+    width:100%;
+    
 }
 
 li.social-icons {
@@ -68,82 +62,56 @@ a.round-animate:hover {
     
 }
 
-/*  Media queries  */
+/* copyright et credits et popup */
+.foot-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: right;
+    width:100%;
+    /* font-size:0.75em; */
+}
+.foot-footer p, a.popup {
+    font-size: 0.75em;
+}
+
+.modal {
+    top: 250px;
+}
+
+
+
+
+
+
+/******  Media queries  ********/
 
   /* ----- 400px --------*/
   @media screen and (max-width: 25em) {
     #section-footer {
         opacity:1;
-        height: 4%;
-        padding:2em;
+        height: 20%;
+       
     }
-    a.round-animate {
-        padding: 0.2em 0 0 0!important;
-        width: 2em !important;
-        height: 2em !important;
-    }
-    .icon-size {
-        font-size: 1em!important;
-    }
-    ul#social-icons {
-        padding-top: 2em!important;
-        padding-bottom: 1em;
-    }
+       
   }
 
   /* ----- 400px à 512px--------*/
   @media screen and (min-width: 25em) and ( max-width: 32em ) {
     #section-footer {
         opacity:1;
-        height: 7%;
-        padding:2em;
+        height: 16%;
+        
     }
-    a.round-animate {
-        padding: 0.2em 0 0 0!important;
-        width: 2em !important;
-        height: 2em !important;
-    }
-    .icon-size {
-        font-size: 1em!important;
-    }
+    
   }
 
-  /* ----- de 512px à 656px --------*/
-  @media screen and (min-width: 32em) and (max-width: 41em) {
+  /* ----- de 512px à à 1200px --------*/
+  @media screen and (min-width: 32em) and (max-width: 75em) {
     #section-footer {
         opacity:1;
-        height: 7%;
-        padding:2em;
     }
-    a.round-animate {
-        padding: 0.2em 0 0 0!important;
-        width: 2em !important;
-        height: 2em !important;
-    }
-    .icon-size {
-        font-size: 1em!important;
-    }
-    ul#social-icons {
-        padding-top: 3em!important;
-    }
+    
   }
 
-   /* ----- de 656px à 1200px --------*/
-  @media screen and (min-width: 41em) and (max-width: 75em) {
-    #section-footer {
-        opacity:1;
-        height: 7%;
-        padding:2em;
-    }
-    a.round-animate {
-        padding: 0.2em 0 0 0!important;
-        width: 2em !important;
-        height: 2em !important;
-    }
-    .icon-size {
-        font-size: 1em!important;
-    }
-    ul#social-icons {
-        padding-top: 3em!important;
-    }
-  }
+   

@@ -9,22 +9,32 @@
     background:url(../img/background/gray-texture.png) repeat;
     box-shadow: 0 2px 4px rgba(0,0,0,.2);
     padding-bottom:3em;
-    
   }
+
+  p.font-bold {
+    font-family: 'lato_blackitalic', sans-serif;
+  }
+
   
 
 /****** les sections présentation et métier ******/
 
-  .presentation, .metier {
+  .presentation, .metier, .btn {
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin: 1% auto;
-    
   }
+
+  .cv-pat {
+    font-size:0.7em;
+    color:#fff;
+  }
+  
+
   /****** les div textes ******/
 
-  .aboutme, .webdesign, .integrateur {
+  .aboutme, .pro {
     display: flex;
     justify-content:center;
     flex-direction: column;
@@ -40,8 +50,11 @@
     width: 45%;
   }
 
-  .webdesign, .integrateur {
-    width: 30%;  
+  .pro {
+    width: 45%;  
+  }
+  .pro h3 {
+    font-size: 1.3em;
   }
 
   /****** les div photos ******/
@@ -68,30 +81,26 @@
 
   /****** les traits (hr) ******/
 
-hr {
+  hr {
     margin: 0 auto;
     width: 60%;
     height: 1px;
     background-color: #b9387d;
     border: none; 
+    
   }
 
-  .hr-black, .hr-pink{
+  .hr-black {
+    background-color: #5D5A58;
     margin: 0; 
     width:100%;
     height: 1px;
     border: none; 
   }
 
-  .hr-black {
-    background-color: #5D5A58;
-  }
-
-  .hr-pink {
-    background-color: #b9387d;
-  }
   
   /*  SKILLS  */
+  
 .skills-container {
   display: flex;
   flex-direction: row;
@@ -102,7 +111,7 @@ hr {
   padding-right:1em;
 }
 .skills-container p img {
-  width:40px;
+  width:50px;
 }
   
 
@@ -120,12 +129,12 @@ hr {
       flex-direction: column;
     }
     .a-propos {
-      width:118%;
+      width:100%;
     }
     .aboutme {
-      width: 95%;
+      width: 90%;
     }
-    .aboutme h3, .webdesign h3 , .integrateur h3 {
+    .aboutme h3, .pro h3 {
       padding-top: 1em;
     }
     .photo-cv {
@@ -135,12 +144,18 @@ hr {
     .image {
       width:95%;
     }
-    .webdesign, .integrateur {
-      width: 95%;
+    .pro {
+      width: 90%;
     }
+    
     .skills-container p img {
-      width:30px;
+      width:40px;
+      margin-bottom: 5%;
     }
+    .skills-container {
+      margin-bottom: 16%;
+    }
+    
     .a-propos {
       width:100%;
       margin: 5% auto 9% auto;
@@ -155,9 +170,9 @@ hr {
     #nav, #nav-scroll {
       display: none!important;
     }
-    
-
   }
+
+  
 
 /* ----- de 400px à 512px--------*/
 @media screen and (min-width: 25em) and (max-width: 32em) {
@@ -171,9 +186,9 @@ hr {
     flex-direction: column;
   }
   .aboutme {
-    width: 95%;
+    width: 90%;
   }
-  .aboutme h3, .webdesign h3 , .integrateur h3 {
+  .aboutme h3, .pro h3 {
     padding-top: 1em;
   }
   .image {
@@ -183,12 +198,18 @@ hr {
     width: 72%;
     margin: 5% auto 1% auto;
   }
-  .webdesign, .integrateur {
-    width: 95%;
+  .pro {
+    width: 90%;
   }
+  
   .skills-container p img {
-    width:30px;
+    width:40px;
+    margin-bottom: 5%;
   }
+  .skills-container {
+    margin-bottom: 16%;
+  }
+  
   .a-propos {
     width:100%;
     margin: 3% auto 9% auto;
@@ -222,7 +243,7 @@ hr {
   .aboutme {
     width: 90%;
   }
-  .aboutme h3, .webdesign h3 , .integrateur h3 {
+  .aboutme h3, .pro h3 {
     padding-top: 0.5em;
   }
   .photo-cv {
@@ -232,9 +253,21 @@ hr {
   .image {
   width: 75%;
   }
-  .webdesign, .integrateur {
-    width: 95%;
+  .pro {
+    width: 85%;
   }
+  .pro h3 {
+    font-size: 1.2em;
+  }
+  .skills-container p img {
+    width:40px;
+    margin-bottom: 5%;
+  }
+  .skills-container {
+    margin-bottom: 10%;
+  }
+
+  
   .show-logo-white {
     display:block;
     top: -0.2em;
@@ -249,14 +282,14 @@ hr {
   /* ----- 656px à 816px --------*/
   @media screen and (min-width: 41em) and ( max-width: 51em ) {
   .a-propos {
-    margin: 14% auto;
+    margin: 6% auto;
     width:80%;
   }
   .presentation {
     flex-direction: column-reverse;
   }
   .aboutme {
-    width: 100%;
+    width: 90%;
     padding: 3%;
   }
   .photo-cv {
@@ -266,16 +299,17 @@ hr {
   .metier {
     flex-direction: column;
   }
-  .webdesign, .integrateur {
-    width: 100%;
+  .pro {
+    width: 70%;
     padding: 3%;
   }
   .image {
     width: 75%;
     margin: 5% auto 1% auto;
   }
-  .webdesign h3 {
-    padding-top:2em;
+  .pro h3 {
+    padding-top: 2em;
+    font-size: 1.2em;
   }
   .show-logo-white {
     display:block;
@@ -287,7 +321,11 @@ hr {
     display: none!important;
   }
   .skills-container p img {
-    width:30px;
+    width:40px;
+    margin-bottom: 5%;
+  }
+  .skills-container {
+    margin-bottom: 10%;
   }
 }
 
@@ -304,8 +342,8 @@ hr {
   .aboutme {
     width: 80%;
   }
-  .webdesign h3 , .integrateur h3 {
-    font-size: 1.3em;
+  .pro h3  {
+    font-size: 1.25em;
   }
   .photo-cv {
     width: 48%;
@@ -318,9 +356,12 @@ hr {
     width: 63%;
     margin: 5% auto 1% auto;
   }
-  .webdesign, .integrateur {
-    width: 95%;
+  .pro {
+    width: 70%;
     padding: 3%;
+  }
+  .skills-container p img {
+    width: 40px;
   }
 }
 
@@ -347,12 +388,17 @@ hr {
   .image {
     width: 66%;
   }
-  .webdesign h3 , .integrateur h3 {
-      font-size: 1.3em;
+  .pro h3 {
+      font-size: 1.5em;
   }
-  .webdesign, .integrateur {
+  .pro {
     width: 100%;
     padding: 3%;
+  }
+  
+  
+  .skills-container p img {
+    width: 40px;
   }
 }
 
@@ -360,10 +406,10 @@ hr {
 /* ----- de 1200px  à 1500px --------*/
 @media screen and ( min-width: 75em ) and ( max-width: 93.750em) {
   .a-propos {
-    margin: 20% auto;
+    margin: 18% auto;
     width: 70%;
   }
-  .webdesign h3 , .integrateur h3 {
+  .pro h3 {
     font-size: 1.4em;
   }
   .photo-cv {
@@ -381,8 +427,8 @@ hr {
 
 
 /* ----- de 1500px --------*/
-@media screen and ( min-width: 93.750em ) {
-  .webdesign h3 , .integrateur h3 {
+@media screen and ( min-width: 93.75em ) {
+  .pro h3 {
     font-size: 1.5em;
   }
 }

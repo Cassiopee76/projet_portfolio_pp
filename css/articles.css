@@ -6,6 +6,7 @@
     align-items:center;
     flex-direction: column;
     padding-bottom:3em;
+    margin-bottom: 5%;
 
 }
 .article-header {
@@ -23,17 +24,17 @@
     margin-top: 2%;
 }
 #cross {
-    position: absolute;
-    top: 6%;
-    right: 5%;
+    position: fixed;
+    top: 27%;
+    right: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
     /* align-self: flex-end; */
     border: 3px solid #b9387d;
     border-radius: 50%;
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
     padding: 1%;
     transition: border 0.3s ease;
 }
@@ -44,7 +45,7 @@
 .cross {
     color: #b9387d;
     font-family: 'raleway_blackregular';
-    font-size: 3em;
+    font-size: 2.8em;
 }
 .cross:hover {
     text-decoration: none;
@@ -122,14 +123,17 @@ height: auto;
 
   /* ----- 400px --------*/
   @media screen and (max-width: 25em) {
+    #articles-show {
+        margin-bottom: 30%;
+    }
     .article-header {
         margin-top: 5%;
     }
     #cross {
         width: 3em;
         height: 3em;
-        position: relative;
-        left: -1%;
+        position: unset;
+        
     }
     .cross {
         font-size: 2em;
@@ -188,14 +192,17 @@ height: auto;
 
   /* ------- de 400px à 512px--------*/
   @media screen and (min-width: 25em) and (max-width: 32em) {
+    #articles-show {
+        margin-bottom: 30%;
+    }
     .article-header {
         margin-top: 8%;
     }
     #cross {
         width: 3em;
         height: 3em;
-        position: relative;
-        left: -1%;
+        position: unset;
+        
     }
     .cross {
         font-size: 2em;
@@ -254,14 +261,17 @@ height: auto;
 
   /* ------- de 512px à 656px --------*/
   @media screen and (min-width: 32em) and (max-width: 41em) {
+    #articles-show {
+        margin-bottom: 20%;
+    }
     .article-header {
         margin-top: 4%;
     }
     #cross {
         width: 3em;
         height: 3em;
-        position: relative;
-        left: -1%;
+        position: unset;
+        
     }
     .cross {
         font-size: 2em;
@@ -320,14 +330,17 @@ height: auto;
 
   /* ----- de 656px à 816px --------*/
   @media screen and (min-width: 41em) and (max-width: 51em) { 
+    #articles-show {
+        margin-bottom: 20%;
+    }
     .article-header {
-        margin-top: 20%;
+        margin-top: 4%;
     }
     #cross {
         width: 3em;
         height: 3em;
-        position: relative;
-        left: -1%;
+        position: unset;
+        
     }
     .cross {
         font-size: 2em;
@@ -383,13 +396,15 @@ height: auto;
 
   /* ----- de 816px à 992px --------*/
   @media screen and (min-width: 51em) and (max-width: 62em) {
+    #articles-show {
+        margin-bottom: 14%;
+    }
     
     #cross {
-        align-self: center;
         width: 3.5em;
         height: 3.5em;
-        margin-left: 5%;
-        top: 9%;
+        right: 0.5%;
+        
     }
     .cross {
         font-size: 2em;
@@ -443,6 +458,9 @@ height: auto;
 
   /* ----- de 992px à 1200px --------*/
   @media screen and (min-width: 62em) and (max-width: 75em) {
+    #articles-show {
+        margin-bottom: 10%;
+    }
     .article-header {
         margin-top: 23%;
     }
@@ -459,8 +477,9 @@ height: auto;
         padding-bottom:4em;
     }
     #cross {
-        width: 4em;
-        height: 4em;
+        width: 3.7em;
+        height: 3.7em;
+        right: 1%;
     }
     .cross {
         font-size: 2.5em;
@@ -470,6 +489,9 @@ height: auto;
 
   /* ----- de 1200px à 1500px -----*/ 
   @media screen and (min-width: 75em) and (max-width: 93.750em) {
+      #cross {
+          right: 2%;
+      }
     .article-header {
         margin-top: 18%;
     }
