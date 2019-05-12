@@ -19,7 +19,7 @@
                 <br/>
                 Se faire plaisir et faire plaisir aux autres, est une énorme satisfaction pour moi.
                 <br/>
-                <p class="font-bold">Alors ..., si vous êtes une agence dynamique, sympa et qui n'hésiterai pas à faire la différence en choisissant
+                <p class="font-bold">Alors ..., si vous êtes une agence dynamique, sympa et qui n'hésiterait pas à faire la différence en choisissant
                  une Webdesigner comme moi... 
                  <br/>
                  Je suis disponible ! N'hésitez plus appelez-moi :)
