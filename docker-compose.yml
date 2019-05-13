@@ -1,0 +1,21 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - /home/user/docker/portfolio-pp/mariadb_data:/var/lib/mysql
+
+  portfolio:
+    image: portfolio-pp:1.0.0
+    restart: always
+    ports:
+      - 81:80
+    environment:
+      DB_CONNECTION: mysql:host=db;dbname=portfolio_patricia
+      DB_USER: root
+      DB_PASSWORD: root
