@@ -17,7 +17,7 @@
                 </a>
             </li>
             <li class="social-icons">
-                <a class="round-animate" href="https://github.com/Cassiopee76/Cassiopee76.github.io" target="_blank" rel="noopener" title="Github">
+                <a class="round-animate" href="https://github.com/Cassiopee76/projet_portfolio_pp" target="_blank" rel="noopener" title="Github">
                     <span>
                         <i class="fab fa-github icon-size"></i>
                     </span>
@@ -36,7 +36,7 @@
                         <h4 class="modal-title"> Crédits </h4>
                     </div>
                     <div class="modal-body">
-                        Photo pont Raymond Barre Lyon (page contact): 
+                        © Photo pont Raymond Barre Lyon par Ludo-Lyon sur Pixabay 
                         https://pixabay.com/fr/photos/l-architecture-pont-design-lyon-3796664/   
                     </div>
                     <div class="modal-footer">

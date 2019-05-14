@@ -13,7 +13,7 @@
                 Au cours de ma formation, j'ai acquis connaissances théoriques et pratiques, 
                 mais c'est en agence que j'ai pleinement profité de mon métier.
                 <br/> 
-                Je suis plus que tout, convaincue, que faire ce que l'on aime est l'un des plus beau rêve à réaliser dans une vie.
+                Je suis plus que tout, convaincue, que faire ce que l'on aime est l'un des plus beaux rêves à réaliser dans une vie.
                 <br/> 
                 J'ai la chance de pouvoir donner jour à une idée, un projet, les réaliser et voir le résultat d'un travail accompli.
                 <br/>
