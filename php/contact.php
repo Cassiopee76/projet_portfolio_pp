@@ -41,8 +41,13 @@
                         <h4 class="modal-title"> Crédits </h4>
                     </div>
                     <div class="modal-body">
-                        © Photo pont Raymond Barre Lyon par Ludo-Lyon sur Pixabay  
-                        https://pixabay.com/fr/photos/l-architecture-pont-design-lyon-3796664/   
+                        © Photo pont Raymond Barre Lyon par Ludo-Lyon sur Pixabay 
+                        <br/>
+                        https://pixabay.com/fr/photos/l-architecture-pont-design-lyon-3796664/ 
+                        <hr class="hr-black"/> 
+                        © Abstract blue technology background design illustration par harryarts sur Vecteezy
+                        <br/>
+                        https://www.vecteezy.com/vector-art/257519-abstract-blue-technology-background-design-illustration/   
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-info" data-dismiss="modal">Fermer </button>

@@ -59,7 +59,7 @@ a.logo{
     top:0;
     width: 100%;
     height: auto;
-    padding: 2rem;
+    padding: 2rem 2rem 0rem 2rem ;
     background:url('../img/background/gray-texture.png') repeat;
     border-bottom: 1px solid #5D5A58;
     z-index:100;

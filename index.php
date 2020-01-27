@@ -9,7 +9,8 @@
 <body>
 
     <section id="section-home">
-    <img src="./img/logo_PatriciaWebdesign-blanc144.png" class="show-logo-white" alt="logo du site" />
+    <img src="./img/logo_PatriciaWebdesign-V3-144x117-blanc.png" class="show-logo-white" alt="logo portfolio Patricia Perroudon Webdesigner" />
+    
 
     <!-------- Menu-Burger -------->
         <?php
