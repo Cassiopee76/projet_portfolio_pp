@@ -31,9 +31,10 @@
         </ul>
         <div class="foot-footer">
             <p>© 2019 |  PORTFOLIO PATRICIA WEBDESIGN |  </p>
-            <a href="#" class="popup" data-toggle="modal" data-backdrop="false" data-target="#infos">Crédits </a> <!--Pour la Popup-->
+            <a href="#" class="popup" data-toggle="modal" data-backdrop="false" data-target="#infos">Crédits </a> <!--Pour la Pop-up du credit-->
         </div> 
-       <!--suite de la Popup-->
+        
+       <!--pop-up = modal en boostrap-->
         <div class="modal" id="infos" id="infos" role="dialog" aria-labelledby="label" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -41,13 +42,13 @@
                         <h4 class="modal-title"> Crédits </h4>
                     </div>
                     <div class="modal-body">
-                        © Photo pont Raymond Barre Lyon par Ludo-Lyon sur Pixabay 
+                        <strong>© Photo pont Raymond Barre Lyon par Ludo-Lyon sur Pixabay </strong>
                         <br/>
-                        https://pixabay.com/fr/photos/l-architecture-pont-design-lyon-3796664/ 
+                        <a href="https://pixabay.com/fr/photos/l-architecture-pont-design-lyon-3796664/">https://pixabay.com/fr/photos/l-architecture-pont-design-lyon-3796664/</a>
                         <hr class="hr-black"/> 
-                        © Abstract blue technology background design illustration par harryarts sur Vecteezy
+                        <strong>© Abstract blue technology background design illustration par harryarts sur Vecteezy </strong>
                         <br/>
-                        https://www.vecteezy.com/vector-art/257519-abstract-blue-technology-background-design-illustration/   
+                        <a href="https://www.vecteezy.com/vector-art/257519-abstract-blue-technology-background-design-illustration/">https://www.vecteezy.com/vector-art/257519-abstract-blue-technology-background-design-illustration/</a>  
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-info" data-dismiss="modal">Fermer </button>

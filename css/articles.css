@@ -1,3 +1,87 @@
+/*.cross {
+    position: fixed;
+    top: 27%;
+    right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'raleway_blackregular';
+    font-size: 2.8em;
+    transition: all 1s ease;
+}
+.cross:hover {
+    text-decoration: none;
+    color: #c89db4;
+    transform: rotate(360deg);
+}*/
+
+/****** cross to closed ******/
+
+.outer-cross {
+    position: fixed;
+    top: 27%;
+    right:3%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1em;
+  }
+.inner-back {
+    width: inherit;
+    text-align: center;
+  }
+  
+  label { 
+    font-size: .8em; 
+    line-height: 4em;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all .3s ease-in;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .inner-back:before, .inner-back:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: inherit;
+    background: #c89db4;
+    left: 0;
+    transition: all .3s ease-in;
+  }
+  
+  .inner-back:before {
+    top: 47%; 
+    transform: rotate(45deg);  
+  }
+  
+  .inner-back:after {  
+    bottom: 47%;
+    transform: rotate(-45deg);  
+  }
+  
+  .outer-cross:hover label {
+    opacity: 1;
+  }
+  
+  .outer-cross:hover .inner-back:before,
+  .outer-cross:hover .inner-back:after {
+    transform: rotate(0);
+  }
+  
+  .outer-cross:hover .inner-back:before {
+    top: 0;
+  }
+  
+  .outer-cross:hover .inner-back:after {
+    bottom: 0;
+  }
+
+
 /****** Articles work part 1 ******/
 #articles-show {
     width:100%;
@@ -23,35 +107,7 @@
     width: 40%;
     margin-top: 2%;
 }
-#cross {
-    position: fixed;
-    top: 27%;
-    right: 3%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* align-self: flex-end; */
-    border: 3px solid #b9387d;
-    border-radius: 50%;
-    width: 4em;
-    height: 4em;
-    padding: 1%;
-    transition: border 0.3s ease;
-}
-#cross:hover {
-    border: 6px solid #b9387d;
-    
-}
-.cross {
-    color: #b9387d;
-    font-family: 'raleway_blackregular';
-    font-size: 2.8em;
-}
-.cross:hover {
-    text-decoration: none;
-    color: #b9387d;
-}
-
+ 
 .article-header h1{
     text-transform: uppercase;
 }

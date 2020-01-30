@@ -16,11 +16,21 @@
 body {
     font-size: 16px;
     box-sizing: border-box;
-    background: url('../img/background/abstract-background.jpg') no-repeat center fixed;
+    
+
+}
+.bg-blue {
+    background: url('../img/background/pont-raymond-barre-lyon.jpg') no-repeat center fixed;
     -webkit-background-size: cover; /* Pour les anciens chrome et safari */
     background-size: cover;
 }
 
+.abstract-background {
+    background: url('../img/background/abstract-background.jpg') no-repeat center fixed;
+    -webkit-background-size: cover; /* Pour les anciens chrome et safari */
+    background-size: cover;
+
+}
 #section-home {
   width:100%;
 }
@@ -31,5 +41,9 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     font-family: 'latoregular', sans-serif;
+}
+
+label {
+    margin: 0!important;
 }
 

@@ -9,7 +9,11 @@ while($item = $query2->fetch()) { ?>
 
 <section id="articles-show">
     <div class="article-header">
-        <div id="cross"><a class="cross" href="index.php?page=3">X</a></div>
+        <div class="outer-cross">
+            <a class="inner-back" href="index.php?page=3">
+                <label>Back</label>
+            </a>
+        </div>
         <h1><?php echo nl2br($item['title_work'])?></h1>
         <p><?php echo nl2br($item['content_work'])?></p>
         <p><?php echo nl2br($item['content_work2'])?></p>

@@ -7,7 +7,12 @@
     ?>
 <!-------- BODY -------->
 <body>
+        <!-- BACKGROUND SUR LES PAGES -->
+        <?php
+            include "./php/background.php";
+        ?>
 
+        <!-- LOGO -->
     <section id="section-home">
     <img src="./img/logo_PatriciaWebdesign-V3-144x117-blanc.png" class="show-logo-white" alt="logo portfolio Patricia Perroudon Webdesigner" />
     
@@ -15,7 +20,6 @@
     <!-------- Menu-Burger -------->
         <?php
             include "./php/menu-burger.php";
-
         ?>
         
     <!-------- primary navigation -------->
@@ -26,6 +30,7 @@
 
     <!-------- condition du menus -------->
      <?php
+
         if (isset($_GET['page']) && $_GET['page']==0) { 
             include './php/home.php';
         }   
@@ -46,11 +51,9 @@
                 include './php/menu-work.php';
             }
         }
-        
         else {
             include './php/home.php';
         }
-
     ?>
 
     
