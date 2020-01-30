@@ -20,9 +20,9 @@
 
 .outer-cross {
     position: fixed;
-    top: 27%;
-    right:3%;
-    width: 50px;
+    top: 15%;
+    right:1%;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,14 +135,7 @@
 /****** Articles work part 2 ******/
 
 .container-article, .container-article2 {
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0% auto;
-    width:1200px; */
-
+    
     display:flex;
     flex-direction: row;
     width: 63%;
@@ -185,14 +178,12 @@ height: auto;
     .article-header {
         margin-top: 5%;
     }
-    #cross {
-        width: 3em;
-        height: 3em;
-        position: unset;
+    .outer-cross {
+        top:10%;
+        right: 46%;
+        width: 40px;
+        position: absolute;
         
-    }
-    .cross {
-        font-size: 2em;
     }
     .article-header h1 {
         padding-top: 1em;
@@ -254,14 +245,12 @@ height: auto;
     .article-header {
         margin-top: 8%;
     }
-    #cross {
-        width: 3em;
-        height: 3em;
-        position: unset;
+    .outer-cross {
+        top:10%;
+        right: 46%;
+        width: 40px;
+        position: absolute;
         
-    }
-    .cross {
-        font-size: 2em;
     }
     .article-header h1 {
         padding-top: 1em;
@@ -323,14 +312,12 @@ height: auto;
     .article-header {
         margin-top: 4%;
     }
-    #cross {
-        width: 3em;
-        height: 3em;
-        position: unset;
-        
-    }
-    .cross {
-        font-size: 2em;
+    .outer-cross {
+        top:10%;
+        right: 46%;
+        width: 40px;
+        position: absolute;
+       
     }
     .article-header h1 {
         padding-top: 1.5em;
@@ -392,14 +379,12 @@ height: auto;
     .article-header {
         margin-top: 4%;
     }
-    #cross {
-        width: 3em;
-        height: 3em;
-        position: unset;
+    .outer-cross {
+        top:12%;
+        right: 47.5%;
+        width: 40px;
+        position: absolute;
         
-    }
-    .cross {
-        font-size: 2em;
     }
     .article-header h1 {
         padding-top: 2em;
@@ -456,15 +441,7 @@ height: auto;
         margin-bottom: 14%;
     }
     
-    #cross {
-        width: 3.5em;
-        height: 3.5em;
-        right: 0.5%;
-        
-    }
-    .cross {
-        font-size: 2em;
-    }
+    
     .article-header {
         margin-top: 28%;
     }
@@ -532,22 +509,13 @@ height: auto;
     .img-article img:last-child {
         padding-bottom:4em;
     }
-    #cross {
-        width: 3.7em;
-        height: 3.7em;
-        right: 1%;
-    }
-    .cross {
-        font-size: 2.5em;
-    }
+    
     
   }
 
   /* ----- de 1200px à 1500px -----*/ 
   @media screen and (min-width: 75em) and (max-width: 93.750em) {
-      #cross {
-          right: 2%;
-      }
+      
     .article-header {
         margin-top: 18%;
     }

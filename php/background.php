@@ -2,9 +2,9 @@
 <!----- BACKGROUND differents selon les pages ----->
 
 <?php
-        $fond = 'null';
+        $fond = '';
         if (isset($_GET['page']) && $_GET['page']==0) { 
-            $fond = 'null';
+            $fond = '';
         }   
         if (isset($_GET['page']) && $_GET['page']==1)  {
             $fond = './img/background/abstract-background.jpg';
@@ -13,7 +13,7 @@
             $fond = './img/background/abstract-background.jpg';
         }
         if (isset($_GET['page']) && $_GET['page']==4)  {
-            $fond = 'null';
+            $fond = './img/background/pont-raymond-barre-lyon.jpg';
         } 
         
         if (isset($_GET['id']) && $_GET['id']<=9) {

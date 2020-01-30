@@ -8,6 +8,7 @@
 @import "./about-me.css";
 @import "./font-css/lato.css";
 @import "./font-css/raleway.css";
+@import "./menu-burger.css";
 
 
 
@@ -19,18 +20,7 @@ body {
     
 
 }
-.bg-blue {
-    background: url('../img/background/pont-raymond-barre-lyon.jpg') no-repeat center fixed;
-    -webkit-background-size: cover; /* Pour les anciens chrome et safari */
-    background-size: cover;
-}
 
-.abstract-background {
-    background: url('../img/background/abstract-background.jpg') no-repeat center fixed;
-    -webkit-background-size: cover; /* Pour les anciens chrome et safari */
-    background-size: cover;
-
-}
 #section-home {
   width:100%;
 }

@@ -80,6 +80,7 @@
     
     .show-logo-white {
       display:block;
+      /* position: fixed; */
       padding-top:1em;
       padding-left:1em;
       width:100px;

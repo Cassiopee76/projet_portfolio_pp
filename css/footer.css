@@ -2,7 +2,7 @@
 #section-footer {
     background: url('../img/background/gray-texture.png') repeat;
     width:100%;
-    height:14%;
+    height:auto;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -90,8 +90,6 @@ a.round-animate:hover {
   @media screen and (max-width: 25em) {
     #section-footer {
         opacity:1;
-        height: 20%;
-       
     }
        
   }
@@ -100,8 +98,6 @@ a.round-animate:hover {
   @media screen and (min-width: 25em) and ( max-width: 32em ) {
     #section-footer {
         opacity:1;
-        height: 16%;
-        
     }
     
   }
