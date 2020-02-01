@@ -548,3 +548,13 @@ height: auto;
         display: none; 
     }
 }
+
+/* ----- a partir de 1500px -----*/ 
+@media screen and (min-width: 93.750em) {
+    #scroll_to_top { 
+        display: none; 
+      } 
+    #scroll_to_top img { 
+        display: none; 
+    }
+}
