@@ -32,15 +32,15 @@ li.bloc {
   .img-work:hover{cursor: pointer;}
 
   #nav2 .navigation-container .bloc {
-    filter: hue-rotate(180deg);
-    -webkit-filter: hue-rotate(180deg);
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
     transition: 0.4s ease-in-out;
     cursor: pointer;
 }
 
 #nav2 .navigation-container .bloc:hover {
-    filter: hue-rotate(0deg);
-    -webkit-filter: hue-rotate(0deg);
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 
  /********  Media queries  *********/

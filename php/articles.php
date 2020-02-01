@@ -7,6 +7,7 @@ $query2 = $database->query('SELECT * FROM works WHERE id='.$id);
 $query3 = $database->query('SELECT * FROM text_pics_articles WHERE works_id='.$id);
 while($item = $query2->fetch()) { ?>
 
+
 <section id="articles-show">
     <div class="article-header">
         <div class="outer-cross">
@@ -79,4 +80,7 @@ while($item = $query2->fetch()) { ?>
         </article>
     <?php } ?>           
 <?php } ?>
+<div id="scroll_to_top"> 
+    <a href="#top"><img src="img/top.svg" alt="Back to Top" title="Back to Top" /></a> 
+</div>
 </section>

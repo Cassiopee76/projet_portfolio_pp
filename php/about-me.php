@@ -48,18 +48,19 @@
             <hr class="hr-black"/>
             <br/>
             <div>
-                <div class="skills-container">
-                    <p><img src="./img/skills/illustrator.png" /></p>
-                    <p><img src="./img/skills/indesign.png" /></p>
-                    <p><img src="./img/skills/photoshop.png" /></p>
-                    <p><img src="./img/skills/after-effect.png" /></p>
-                    <p><img src="./img/skills/html5.png" /></p>
-                    <p><img src="./img/skills/css3.png" /></p>
-                    <p><img src="./img/skills/javascript.png" /></p>
-                    <p><img src="./img/skills/php.png" /></p>
-                    <p><img src="./img/skills/wordpress.png" /></p>
-                    <p><img src="./img/skills/bootstrap.svg" /></p>
-                    <p><img src="./img/skills/mysql.png" /></p>
+                <div class="skills-container img-fluid">
+                    <p><img src="./img/skills/illustrator.svg" title="Illustrator"/></p>
+                    <p><img src="./img/skills/indesign.svg" title="Indesign"/></p>
+                    <p><img src="./img/skills/photoshop.svg" title="Photoshop"/></p>
+                    <p><img src="./img/skills/after-effect.svg" title="After Effect"/></p>
+                    <p><img src="./img/skills/html5.svg" title="HTML5"/></p>
+                    <p><img src="./img/skills/css3.svg" title="CSS3"/></p>
+                    <p><img src="./img/skills/javascript.svg" title="Javascript"/></p>
+                    <p><img src="./img/skills/bootstrap.svg" title="Bootstrap"/></p>
+                    <p><img src="./img/skills/php.svg" title="PHP"/></p>
+                    <p><img src="./img/skills/wordpress.svg" title="Wordpress"/></p>
+                    <p><img src="./img/skills/mysql.svg" title="MySql"/></p>
+                    <p><img src="./img/skills/github.svg" title="GitHub"/></p>
                 </div>
             </div>
         </div>
