@@ -14,7 +14,7 @@
 
         <!-- LOGO -->
     <section id="section-home">
-    <img src="./img/logo_PatriciaWebdesign-V3-144x117-blanc.png" class="show-logo-white" alt="logo portfolio Patricia Perroudon Webdesigner" />
+    <img src="./img/logo_PatriciaWebdesign-V4-144x117-blanc.png" class="show-logo-white" alt="logo portfolio Patricia Perroudon Webdesigner" />
     
 
     <!-------- Menu-Burger -------->

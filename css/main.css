@@ -1,6 +1,5 @@
 @import "./home.css";
 @import "./menu.css";
-@import "./pages.css";
 @import "./footer.css";
 @import "./contact.css";
 @import "./articles.css";
@@ -26,7 +25,12 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'raleway_semiboldregular', sans-serif;
+    font-family: 'ralewayregular', sans-serif;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size:1.75em ;
 }
 
 p {

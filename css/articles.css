@@ -68,42 +68,42 @@ label {
 /****** Articles work part 1 ******/
 #articles-show {
     width:100%;
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
-    padding-bottom:3em;
+    padding-bottom: 3em;
     margin-bottom: 5%;
 
 }
 .article-header {
     display:flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
     width:100%;
     margin-top: 15%;
     color: #dededd;   
 }
 .article-header p {
-    text-align: center;
+    text-align: justify; 
     width: 40%;
     margin-top: 2%;
 }
  
 .article-header h1{
-    text-transform: uppercase;
+    text-transform: none;
 }
 #masthead {
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     align-items: flex-start;
-    width:100%;
-    margin-top:3em;
+    width: 100%;
+    margin-top: 3em;
 }
 .pics-article-presentation {
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     align-items: center;
     position: absolute;
     
@@ -130,7 +130,7 @@ label {
    color: #dededd;
    text-align: left;
    width: 40%; 
-   padding: 1%;
+   padding: 5%;
 
 }
 .img-fluid {
@@ -212,7 +212,6 @@ height: auto;
         font-size: 1em;
         text-align: center;
         font-weight: bolder;
-        text-transform: uppercase;
         padding:2em;
     }
     .img-article:not(.video-espacece) {
@@ -280,7 +279,6 @@ height: auto;
     .text-article h2, .text-article2 h2{
         font-size: 1em;
         text-align: center;
-        text-transform: uppercase;
         padding: 1em;
     }
     .img-article:not(.video-espacece) {
@@ -347,7 +345,6 @@ height: auto;
     .text-article h2, .text-article2 h2{
         font-size: 1.1em;
         text-align: center;
-        text-transform: uppercase;
         padding: 2em;
     }
     .img-article:not(.video-espacece) {
@@ -411,7 +408,6 @@ height: auto;
     .text-article h2, .text-article2 h2{
         font-size: 1.3em;
         text-align: center;
-        text-transform: uppercase;
         padding:2em;
     }
      
@@ -465,7 +461,6 @@ height: auto;
     .text-article h2, .text-article2 h2{
         font-size: 1.3em;
         text-align: center;
-        text-transform: uppercase;
         padding:2em;
     }
     .img-article:not(.video-espacece) {

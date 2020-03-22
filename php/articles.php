@@ -43,7 +43,7 @@ while($item = $query2->fetch()) { ?>
                 <?php if ($item['pics_articles'] !== null ) { ?>
                 <div class="img-article">
                     <img class="img-fluid" src="./img/img-article/<?php echo $item['pics_articles'] ?>" 
-                    alt="photos de mon travail"/>
+                    alt="photos de mes travaux"/>
                 <?php } ?> 
                     <br/>
                 <?php if ($item['pics_articles_2'] !== null ) { ?>
@@ -51,7 +51,7 @@ while($item = $query2->fetch()) { ?>
                     alt="photo de mes travaux"/>
                 <?php } ?>
                 <?php if ($item['video_article'] !== null ) { ?>
-                    <video class="video-espacece" controls width="500">
+                    <video poster="./img/img-article/animation-espacece0057.jpg" class="video-espacece" controls width="500">
                         <source src="./video/<?php echo $item['video_article'] ?> " type="video/mp4" />
                     </video> 
                 <?php } ?>
@@ -69,13 +69,13 @@ while($item = $query2->fetch()) { ?>
             <?php if ($item['pics_articles_2'] !== null ) { ?>
                 <img class="img-fluid" src="./img/img-article/<?php echo $item['pics_articles_2'] ?>" 
                 alt="works's pictures"/>
-            </div>
             <?php } ?>
+            </div>
             <div class="text-article2">
-                <h2><?php echo $item['title_article']?></h2>
-                <p><?php echo $item['content_article1'] ?></p>
-                <p><?php echo $item['content_article2'] ?></p>
-                <p><?php echo $item['content_article3'] ?></p>
+                <h2><?php echo ($item['title_article'])?></h2>
+                <p><?php echo ($item['content_article1']) ?></p>
+                <p><?php echo ($item['content_article2']) ?></p>
+                <p><?php echo ($item['content_article3']) ?></p>
             </div>
         </article>
     <?php } ?>           

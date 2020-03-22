@@ -45,3 +45,15 @@
 
 }
 
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../../fonts/raleway-webfont/raleway-regular-webfont-webfont.eot');
+    src: url('../../fonts/raleway-webfont/raleway-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/raleway-webfont/raleway-regular-webfont-webfont.woff2') format('woff2'),
+         url('../../fonts/raleway-webfont/raleway-regular-webfont-webfont.woff') format('woff'),
+         url('../../fonts/raleway-webfont/raleway-regular-webfont-webfont.ttf') format('truetype'),
+         url('../../fonts/raleway-webfont/raleway-regular-webfont-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
