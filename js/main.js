@@ -71,27 +71,19 @@ for (let x=0; x < baliseB.length ; x ++) {
   }());
 
 
-  //////// pour bouton pause pour la video de la page home ////////
+  //////// gestion du background video  ////////
 
 const vid = document.getElementById("background-video");
 const pauseButton = document.getElementById("vidpause");
 
-if (window.matchMedia('(prefers-reduced-motion)').matches) {
-  vid.removeAttribute("autoplay");
-  vid.pause();
-  pauseButton.innerHTML = "Paused";
-}
-
-if(vid) {
+if (vid && pauseButton) {
+  vid.play();
+  pauseButton.innerHTML = "Pause";
   vid.addEventListener('ended', function() {
-    // only functional if "loop" is removed
     vid.pause();
+    pauseButton.innerHTML = "Play";
   });
-}
-
-if(pauseButton) {
   pauseButton.addEventListener("click", function() {
-    
     if (vid.paused) {
       vid.play();
       pauseButton.innerHTML = "Pause";
